@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    margin: 20px;
+    padding: 50px;
+}
+
+article{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+footer{
+    background-color: rgb(183, 191, 198);
+    display: flex;
+}
+
+span{
+    margin: 20px;
+}
+
+img{
+    width: 300px;
+    height: auto;
+}
+
+#remeras div{
+    margin: 50px;
+}
+
+.icon-cart{
+    width: 40px;
+    height: 40px;
+    stroke: #000;
+}
+
+.icon-cart:hover{
+    cursor: pointer;
+}
+
+.carrito-icono{
+    width: 35px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0 40px 0;
+}
+
+.container-icon{
+    position: relative;
+}
+
+.contador{
+    position: absolute;
+    top: 55%;
+    right: 0;
+
+    background-color: #000;
+    color: #fff;
+    width: 25px;
+    height: 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.contador{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgb(255, 14, 14);
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.container-productos{
+    display: none; 
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background-color: #fff;
+    width: 400px;
+    z-index: 1;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+    border-radius: 10px;
+}
+
+.container-productos.visible-cart {
+    display: block; 
+}
+
+.carrito-productos{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.20);
+}
+
+.carrito-productos p{
+    margin: 5px 0;
+}
+
+.carrito-productos button{
+    background-color: rgb(251, 8, 8);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.carrito-productos button:hover{
+    background-color: rgb(233, 2, 2);
+}
+
+.carrito-total{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.total-pagar{
+    color: #27ae60; 
+    font-size: 24px;
+}
+
+.carrito-escondido{
+    display: none;
+}
+
+#remeras{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+footer{
+    background-color: rgb(183, 191, 198);
+    display: flex;
+}
+
+footer span{
+    margin: 20px;
+}
+
+
+
